@@ -9,8 +9,7 @@ html, body {
 }
 
 main, main h1, main h2, main p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   text-align: center;
 }
 
@@ -54,9 +53,15 @@ main ul a {
   color: #011627;
 }
 
+/* Styles for mobile devices. */
 @media only screen and (max-width: 767px) {
+  html, body {
+    display: inline;
+  }
+
   main {
     width: 90%;
+    margin: 1rem auto;
   }
 
   main img {
