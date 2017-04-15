@@ -8,13 +8,13 @@ html, body {
   background-color: #FDFFFC;
 }
 
-main, main h1, main h2, main p {
+main, main h1, main h2, main p, main ul {
   margin: 1rem;
   text-align: center;
 }
 
 main {
-  width: 600px;
+  width: 768px;
 }
 
 main h1 {
@@ -57,6 +57,10 @@ main ul a {
 @media only screen and (max-width: 767px) {
   html, body {
     display: inline;
+  }
+
+  main, main h1, main h2, main p, main ul {
+    text-align: left;
   }
 
   main {
