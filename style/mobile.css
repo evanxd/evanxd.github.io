@@ -1,0 +1,16 @@
+html, body {
+  display: inline;
+}
+
+main, main h1, main h2, main p, main ul {
+  text-align: left;
+}
+
+main {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+main img {
+  width: 100%;
+}

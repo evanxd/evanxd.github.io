@@ -3,9 +3,9 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Roboto', sans-serif;
-  color: #011627;
-  background-color: #FDFFFC;
+  font-family: 'Muli', sans-serif;
+  color: #13293D;
+  background-color: #E8F1F2;
 }
 
 main, main h1, main h2, main p, main ul {
@@ -24,11 +24,13 @@ main h1 {
 
 main h2 {
   font-size: 2rem;
+  color: #006494;
 }
 
 main p {
   font-size: 1.2rem;
   line-height: 1.5rem;
+  color: #247BA0;
 }
 
 main img {
@@ -37,7 +39,7 @@ main img {
 }
 
 main a {
-  color: #E71D36;
+  color: #1B98E0;
   font-weight: bold;
 }
 
@@ -50,25 +52,5 @@ main ul li {
 }
 
 main ul a {
-  color: #011627;
-}
-
-/* Styles for mobile devices. */
-@media only screen and (max-width: 767px) {
-  html, body {
-    display: inline;
-  }
-
-  main, main h1, main h2, main p, main ul {
-    text-align: left;
-  }
-
-  main {
-    width: 90%;
-    margin: 1rem auto;
-  }
-
-  main img {
-    width: 100%;
-  }
+  color: #13293D;
 }
