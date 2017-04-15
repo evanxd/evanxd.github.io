@@ -41,3 +41,7 @@ main a {
   color: #E71D36;
   font-weight: bold;
 }
+
+main a:hover {
+  text-decoration:none;
+}
