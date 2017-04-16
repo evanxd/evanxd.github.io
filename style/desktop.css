@@ -19,6 +19,10 @@ footer {
   margin-bottom: 1rem;
 }
 
+span {
+  display: inline-block;
+}
+
 main h1, main h2, main p {
   margin: 1rem 0;
 }
