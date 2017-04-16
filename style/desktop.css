@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   display: flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
   font-family: 'Muli', sans-serif;
@@ -8,13 +9,18 @@ html, body {
   background-color: #E8F1F2;
 }
 
-main, main h1, main h2, main p, main ul {
-  margin: 1rem 0;
+main {
+  width: 768px;
+  margin-top: 1rem;
   text-align: center;
 }
 
-main {
-  width: 768px;
+footer {
+  margin-bottom: 1rem;
+}
+
+main h1, main h2, main p {
+  margin: 1rem 0;
 }
 
 main h1 {
@@ -47,10 +53,6 @@ main a:hover {
   text-decoration:none;
 }
 
-main ul li {
-  display: inline;
-}
-
-main ul a {
+footer a {
   color: #13293D;
 }
