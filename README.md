@@ -1,2 +1,4 @@
-# evanxd.github.io
-Evan Tseng's homepage.
+# evanxd.io
+Evan Tseng's [homepage][homepage].
+
+[homepage]: https://evanxd.io
